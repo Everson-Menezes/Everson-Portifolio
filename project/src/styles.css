@@ -2,7 +2,10 @@
 body{
     color: #fff;
     background-color: #000000;
+    background-image: url('assets/background-layer.jpg');
+    background-repeat: no-repeat;
     text-align: center;
+    background-size: cover;
 }
 nav{
 position: absolute;
@@ -25,5 +28,5 @@ margin: 0 10px;
 }
 .golden-box:hover{
 border: 0;
-box-shadow: 0 0 10px #fcde00;
+box-shadow: 0 0 20px rgb(221, 144, 27);;
 }

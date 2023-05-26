@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+}
+nav{
+position: absolute;
+width: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.golden-box{
+text-decoration: none;
+color: #fff;
+background: transparent;
+padding: 15px 40px;
+border-radius: 5px;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+border: 3px solid #fff;
+margin: 0 10px;
+}
+.golden-box:hover{
+border: 0;
+box-shadow: 0 0 10px #fcde00;
+}

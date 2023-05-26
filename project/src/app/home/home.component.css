@@ -1,0 +1,54 @@
+.homeContent{
+    margin-top: 8%;
+    position: relative;
+    z-index: 10;
+    max-width: 700px;
+}
+h1{
+    transition: 0.5s;
+    font-weight: 200px;
+    font-size: 3.6em;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 4.5em;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+h2 span{
+    font-size: 1.0em;
+    color: rgb(221, 144, 27);
+    transition: 0.5s;
+}
+.homeContent button{
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    padding: 8px 26px;
+    background-color: rgb(248, 112, 103);
+    transition: 0.5s;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+.homeContent button.chat{
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    padding: 8px 26px;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.2em;
+    color: #fff;
+}
+.homeContent button.chat:hover{
+    box-shadow: 0 0 10px #fff;
+    border: 0;
+}

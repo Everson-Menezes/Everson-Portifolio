@@ -1,0 +1,21 @@
+section{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    min-height: 80vh;
+    gap: 25px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.topleft{
+    margin-right: 50%;
+}
+
+.bottomright{
+    margin-left: 50%;
+}

@@ -20,9 +20,10 @@ ul{
 ul li{
    position: relative;
    list-style: none;
-   padding: 35px;
+   padding: 20px;
+   gap: 10px;
    width: 450px;
-   height: 80px;
+   height: 100px;
    transition: 0.5s;
    border: 2px solid;
    cursor: pointer;
@@ -52,22 +53,25 @@ ul li:nth-child(5){
 
 }
 ul li:nth-child(1):active{
-    transform: translateZ(150px) translateY(210px);
+    transform: translateZ(150px) translateY(350px);
+    z-index: 100;
     background: #999494;
 }
 ul li:nth-child(2):active{
-    transform: translateZ(150px) translateY(30px);
+    transform: translateZ(150px) translateY(210px);
+    z-index: 100;
     background: #999494;
 }
 ul li:nth-child(3):active{
-    transform: translateZ(150px) translateY(-150px);
+    transform: translateZ(150px) translateY(65px);
+    z-index: 100;
     background: #999494;
 }
 ul li:nth-child(4):active{
-    transform: translateZ(150px) translateY(-332px);
+    transform: translateZ(150px) translateY(-74px);
+    z-index: 100;
     background: #999494;
 }
 ul li:nth-child(5):active{
-    transform: translateZ(150px) translateY(-492px);
     background: #999494;
 }

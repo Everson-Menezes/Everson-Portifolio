@@ -13,7 +13,11 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'about-me', component: AboutMeComponent }
+  { path: 'about-me', component: AboutMeComponent },
+  { path: '', component: HomeComponent },
+  { path: '**', component: HomeComponent }
+
+
 ];
 
 @NgModule({

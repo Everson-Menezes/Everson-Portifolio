@@ -3,15 +3,23 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
     margin-top: 8%;
-    min-height: 80vh;
+    min-height: 50vh;
 }
 
-.container {
+.containerRight {
     position: relative;
-    width: 850px;
-    height: 850px;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLeft {
+    position: relative;
+    width: 700px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,18 +42,19 @@ section{
     background: #bebebe;
     opacity: 60%;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     transition: 0.5s;
     transform: rotate(calc(360deg/5 * var(--i)));
-    transform-origin: 480px;
+    transform-origin: 360px;
     z-index: 100;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    left: 70%;
 }
 
 .imgBox:hover{
@@ -57,11 +66,13 @@ section{
 
 .everson {
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 25%;
+    margin-bottom: 12%;
 }
 
 .content{

@@ -1,8 +1,7 @@
-.homeContent{
+.leftContent{
     margin-top: 8%;
     position: relative;
-    z-index: 10;
-    max-width: 700px;
+    margin-right: 50%;
 }
 h1{
     transition: 0.5s;
@@ -22,7 +21,7 @@ h2 span{
     color: rgb(221, 144, 27);
     transition: 0.5s;
 }
-.homeContent button{
+.leftContent button{
     border: none;
     border-radius: 5px;
     margin: 10px;
@@ -35,7 +34,7 @@ h2 span{
     transition: 0.5s;
     font-size: 1.2em;
 }
-.homeContent button.chat{
+.leftContent button.chat{
     border-radius: 5px;
     margin: 10px;
     position: relative;

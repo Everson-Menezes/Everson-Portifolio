@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TypingAnimatorModule } from 'angular-typing-animator'
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -12,7 +13,11 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'about-me', component: AboutMeComponent }
+  { path: 'about-me', component: AboutMeComponent },
+  { path: '', component: HomeComponent },
+  { path: '**', component: HomeComponent }
+
+
 ];
 
 @NgModule({
@@ -25,7 +30,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    TypingAnimatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

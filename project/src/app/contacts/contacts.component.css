@@ -1,0 +1,93 @@
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    min-height: 50vh;
+}
+
+.containerRight {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLeft {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 58%;
+    bottom: 8%;
+
+}
+
+.imgBox{
+    position: absolute;
+    background: #bebebe;
+    opacity: 60%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: 0.5s;
+    transform: rotate(calc(360deg/5 * var(--i)));
+    transform-origin: 360px;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 70%;
+}
+
+.imgBox:hover{
+    position: absolute;
+    background: #ce9e02;
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+.everson {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-bottom: 12%;
+}
+
+.content{
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content::before{
+    content: '';
+    position: absolute;
+    inset: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
